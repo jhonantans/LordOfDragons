@@ -1,0 +1,48 @@
+<article class='normalPost'>
+	<header>
+		<h2><a href='#' title= Post>ABCD</a></h2>
+	</header>
+	
+	<footer>
+		<p class='postInfo'>Letras ... letras ... cadê os números??? '-'</p>
+	</footer>
+
+	<section>
+		<p>Um número N, de 4 algarismos é tal que: O algarismo das centenas é igual à soma do algarismo das dezenas com o dos milhares. A soma dos algarismos das dezenas e das unidades é igual ao algarismo das centenas aumentado do triplo dos milhares. A soma dos algarismos das centenas e dos milhares é igual a 8. A soma dos algarismos das unidades, das dezenas e dos milhares é 11.</p>
+<p>
+Solução:
+Pelos dados temos um número ABCD, tal que:
+$$
+B = C+A \\
+C+D = B+3A \\
+B+A = 8 \\
+D+C+A = 11 \\
+$$
+Temos um sistema aqui. Existem várias formas de resolvê-lo. Basta fazer manipulações até conseguir isolar uma determinada variável. 
+Substituindo a primeira equação na terceira temos: 
+$$
+B+A = 8 \\
+(C+A) + A = 8 \\
+C = 8 - 2A
+$$
+Dá terceira equação temos tambem: \( B = 8-A \).<br> Subistituindo B e C na última equação temos:
+$$
+D+C+A = 11 \\
+D + (8-2A) + A = 11 \\
+D = 11 - 8 + 2A - A \\
+D = 3 + A
+$$
+Agora temos B, C e D em função. Substituímos então estes valores na segunda equação, a única que ainda não utilizamos:
+$$
+C+D = B+3A \\
+(8-2A) + (3+A) = (8-A) + 3A \\
+11 - A = 8 + 2A \\
+3 = 3A
+A = 1 \quad \textrm{logo,} \\
+B = 8-A = 7 \\
+C = 8 - 2A = 6 \\
+D =  3+A = 4 \\
+$$
+Portanto, o número é 1764.</p>
+	</section>
+</article>

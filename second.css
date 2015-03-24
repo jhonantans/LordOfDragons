@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:black;
+	text-align:center;
+	color:white;
+}
+
+img {
+	width:300px;
+	height:auto;
+}
+
+form {
+	align-content:center;
+	margin: 10px;
+}
